@@ -3,7 +3,7 @@
 	display:grid;
 	grid-template-columns: 462px 325px auto;
 	align-items: center;
-	margin: 94px 24px 94px 24px;
+	margin: 96px 24px 94px 24px;
 	font-family:  "Raleway", sans-serif;
 	font-size: 18px;
 	padding-top: 2px;
@@ -81,7 +81,7 @@
 .cover__title {
 	display: flex;
 	flex-direction: column;
-	padding: 165px 50px 130px;
+	padding: 163px 50px 130px;
 	font-weight: bold;
 	font-size:  100px;
 }
@@ -100,7 +100,7 @@
 
 .letter-spacing-left {
 	display: inline-block;
-	margin-left: 35px;
+	margin-left: 32px;
 }
 
 .letter-spacing-right {
@@ -156,7 +156,7 @@
 }
 
 .lots__heading {
-	margin-bottom: 24px;
+	margin-bottom: 26px;
 	padding-left: 40px;
 	font-weight: bold;
 	font-size: 40px;
@@ -184,7 +184,7 @@
 	justify-content: space-between;
 	max-width: 334px;
 	min-height: 563px;
-	padding: 55px 40px 47px 40px;
+	padding: 53px 40px 47px 40px;
 	color: #fff;
 	z-index: 0;
 }
@@ -197,6 +197,7 @@
 	z-index: 1;
 	font-size: 22px;
 	text-transform: uppercase;
+	text-decoration-line: underline;
 }
 
 .card__text {
@@ -214,7 +215,7 @@
 
 .lots__look-more-link {
 	display: block;
-	margin: 31px 0 146px 40px;
+	margin: 32px 0 146px 40px;
 	font-size: 20px;
 }
 
@@ -282,6 +283,7 @@
 	font-size: 18px;
 	line-height: 21px;
 	list-style: none;
+	margin-right: 23px;
 }
 
 .footer__menu-link {

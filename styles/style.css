@@ -56,15 +56,14 @@
 	line-height: 24px;
 }
 
-.address__tel-link, .address__mail-link {
+.address__link{
 	text-decoration: none;
-}
-
-.address__tel-item, .address__mail-item {
 	border-bottom: #000 1px solid;
 }
 
 .cover {
+	max-width: 1100px;
+	min-height: 757px;
 	position: relative;
 	color: #fff;
 	text-transform: uppercase;
@@ -80,46 +79,38 @@
 
 .cover__title {
 	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 163px;
+	position: relative;
 	flex-direction: column;
-	padding: 163px 50px 130px;
 	font-weight: bold;
 	font-size:  100px;
-}
-
-.cover__title {
-	position: relative;
 }
 
 .cover__description {
 	position: relative;
 }
 
-.aligned-text {
-	align-self: start;
-}
-
 .letter-spacing-left {
-	display: inline-block;
 	margin-left: 32px;
 }
 
 .letter-spacing-right {
-	display: inline-block;
 	margin-right: 32px;
 }
 
 .letter-spacing-extended {
-	letter-spacing: 30px;
+	letter-spacing: 60px;
 }
 
 .aligned-text_center {
-	align-self: center;
-	margin:10px 55px 0 0 ;
-
+	text-align: center;
+	margin: 10px 0;
 }
 
 .aligned-text_right {
-	align-self: end;
+	text-align: end;
 }
 
 .no-letter-spacing {

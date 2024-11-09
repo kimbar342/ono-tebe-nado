@@ -4,14 +4,14 @@
 	grid-template-columns: 462px 325px auto;
 	align-items: center;
 	margin: 96px 24px 94px 24px;
+	padding-top: 2px;
 	font-family:  "Raleway", sans-serif;
 	font-size: 18px;
-	padding-top: 2px;
 }
 
 .header__menu {
-	margin-left: 27px;
 	max-width: 392px;
+	margin-left: 27px;
 }
 
 .header__links-list {
@@ -22,8 +22,8 @@
 }
 
 .header__links-list-item {
-	word-spacing: 0.1em;
 	font-size: 18px;
+	word-spacing: 0.1em;
 }
 
 .header__links-list-item:first-child {
@@ -57,14 +57,14 @@
 }
 
 .address__link {
-	text-decoration: none;
 	border-bottom: #000 1px solid;
+	text-decoration: none;
 }
 
 .cover {
+	position: relative;
 	max-width: 1100px;
 	min-height: 757px;
-	position: relative;
 	color: #fff;
 	text-transform: uppercase;
 	background: url('../images/cover.jpg') no-repeat center / cover;
@@ -78,21 +78,21 @@
 }
 
 .cover__title {
+	position: relative;
 	display: flex;
+	flex-direction: column;
 	max-width: 1000px;
 	margin: 0 auto;
 	padding-top: 160px;
-	position: relative;
-	flex-direction: column;
 	font-weight: bold;
 	font-size:  100px;
 
 }
 
 .aligned-text {
-	text-align: start;
 	line-height: 125px;
 	letter-spacing: 30px;
+	text-align: start;
 }
 
 .letter-spacing-extended {
@@ -100,16 +100,16 @@
 }
 
 .aligned-text_center {
-	text-align: center;
 	display: block;
-	letter-spacing: 30px;
 	line-height: 125px;
+	letter-spacing: 30px;
+	text-align: center;
 }
 
 .aligned-text_right {
-	text-align: end;
 	line-height: 120px;
 	letter-spacing: 30px;
+	text-align: end;
 }
 
 .no-letter-spacing {
@@ -117,8 +117,8 @@
 }
 
 .cover__description {
-	display: flex;
 	position: relative;
+	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	width: 100%;
@@ -138,8 +138,8 @@
 	margin-left: 79px;
 	border: #fff 1px solid;
 	padding: 12px 32px;
-	text-decoration: none;
 	font-family: "Raleway", sans-serif;
+	text-decoration: none;
 }
 
 .lots {
@@ -171,6 +171,7 @@
 }
 
 .card {
+	z-index: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -178,7 +179,6 @@
 	min-height: 563px;
 	padding: 53px 40px 47px 40px;
 	color: #fff;
-	z-index: 0;
 }
 
 .card_type_film {
@@ -188,8 +188,8 @@
 .card__title {
 	z-index: 1;
 	font-size: 22px;
-	text-transform: uppercase;
 	text-decoration-line: underline;
+	text-transform: uppercase;
 }
 
 .card__text {
@@ -245,9 +245,9 @@
 
 .about__title {
 	margin-bottom: 100px;
+	font-weight: 700;
 	font-size: 40px;
 	text-transform: uppercase;
-	font-weight: 700;
 }
 
 .about__text {
@@ -273,10 +273,10 @@
 	flex-direction: column;
 	align-items: center;
 	margin-top: 1px;
+	margin-right: 23px;
 	font-size: 18px;
 	line-height: 21px;
 	list-style: none;
-	margin-right: 23px;
 }
 
 .footer__menu-link {

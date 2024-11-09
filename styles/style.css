@@ -81,11 +81,18 @@
 	display: flex;
 	max-width: 1000px;
 	margin: 0 auto;
-	padding-top: 163px;
+	padding-top: 160px;
 	position: relative;
 	flex-direction: column;
 	font-weight: bold;
 	font-size:  100px;
+
+}
+
+.aligned-text {
+	text-align: start;
+	line-height: 125px;
+	letter-spacing: 30px;
 }
 
 .letter-spacing-extended {
@@ -95,11 +102,14 @@
 .aligned-text_center {
 	text-align: center;
 	display: block;
+	letter-spacing: 30px;
+	line-height: 125px;
 }
 
 .aligned-text_right {
 	text-align: end;
-	display: block;
+	line-height: 120px;
+	letter-spacing: 30px;
 }
 
 .no-letter-spacing {
@@ -112,6 +122,7 @@
 	justify-content: flex-end;
 	align-items: center;
 	width: 100%;
+	margin-top: 122px;
 	padding-bottom: 50px;
 	font-size: 22px;
 }
@@ -133,7 +144,7 @@
 
 .lots {
 	max-width: 1052px;
-	margin: 179px auto 0;
+	margin: 178px auto 0;
 }
 
 .lots__heading {
@@ -196,7 +207,7 @@
 
 .lots__look-more-link {
 	display: block;
-	margin: 32px 0 146px 40px;
+	margin: 30px 0 146px 40px;
 	font-size: 20px;
 }
 
@@ -226,16 +237,17 @@
 	height: 114px;
 }
 
-.about__articale {
+.about__article {
 	margin-left: 24px;
-	padding-top: 138px;
+	padding-top: 136px;
 	font-size: 20px;
 }
 
 .about__title {
-	margin-bottom: 98px;
+	margin-bottom: 100px;
 	font-size: 40px;
 	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .about__text {
